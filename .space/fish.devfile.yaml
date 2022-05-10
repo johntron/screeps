@@ -1,0 +1,5 @@
+schemaVersion: 2.2.0
+components:
+  - name: deno-container
+    container:
+      image: hub.docker.com/denoland/deno

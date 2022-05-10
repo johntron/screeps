@@ -20,12 +20,20 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/cli/upload.ts" />
         </OpenedFileInfo>
         <OpenedFileInfo>
+          <option name="caretOffset" value="656" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/deno.jsonc" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="210" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/cli/bundle.ts" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="656" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.space/devfile.yaml" />
         </OpenedFileInfo>
       </list>
     </option>

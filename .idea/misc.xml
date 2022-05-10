@@ -24,7 +24,11 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/cli/bundle.ts" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="656" />
+          <option name="caretOffset" value="141" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="106" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
         </OpenedFileInfo>
       </list>

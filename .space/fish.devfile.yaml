@@ -6,11 +6,10 @@ attributes:
 components:
 - name: image-build
   image:
-  # (Required)
-  imageName: my-image:latest
-  dockerfile:
-    # (Optional) path to Docker context relative to projectRoot
-    # by default, projectRoot is repository root
-    buildContext: docker
-    # (Required) path to Dockerfile relative to projectRoot
-    uri: docker/Dockerfile
+    imageName: my-image:latest
+    dockerfile:
+      # (Optional) path to Docker context relative to projectRoot
+      # by default, projectRoot is repository root
+      buildContext: docker
+      # (Required) path to Dockerfile relative to projectRoot
+      uri: docker/Dockerfile

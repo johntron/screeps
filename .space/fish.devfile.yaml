@@ -6,4 +6,4 @@ attributes:
 components:
   - name: deno-container
     container:
-      image: hub.docker.com/denoland/deno
+      image: denoland/deno

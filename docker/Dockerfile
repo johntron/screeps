@@ -1,3 +1,3 @@
-FROM registry.hub.docker.com/library/denoland/deno
+FROM docker.io/denoland/deno
 
 RUN apt install -y git fish curl

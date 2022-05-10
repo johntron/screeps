@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full
-
+RUN sudo install-packages fish
+RUN chsh gitpod /usr/bin/fish
 USER gitpod
 
 # install deno

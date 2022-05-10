@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "types": [
+      "https://unpkg.com/@types/screeps@3.3.0/index.d.ts"
+    ]
+  }
+}

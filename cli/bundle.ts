@@ -1,25 +1,18 @@
-var https = require(dd'https');
+// const { files, diagnostics } = await Deno.emit("./src/loop.ts", {
+//     bundle: "classic",
+//     compilerOptions: {
+//         module: 'commonjs'
+//     }
+// });
+//
+// Deno.writeTextFile('./loop.js', files['deno:///bundle.js'])
+// // console.log(files['deno:///bundle.js'])
 
-var email = '<your e-mail>',
-    password = '<your password>',
-    data = {
-        branch: 'default',
-        modules: {
-            main: 'require("hello");',
-            hello: 'console.log("Hello World!");'
-        }
-    };
 
-var req = https.request({
-    hostname: 'screeps.com',
-    port: 443,
-    path: '/api/user/code',
-    method: 'POST',
-    auth: email + ':' + password,
-    headers: {
-        'Content-Type': 'application/json; charset=utf-8'
-    }
-});
 
-req.write(JSON.stringify(data));
-req.end();
+
+
+import * as esbuild from 'https://deno.land/x/esbuild@v0.14.38/mod.js'
+const result = await esbuild.transform(Deno.readTextFileSync('src/loop.ts'), { loader: 'ts' })
+console.log('result:', result)
+esbuild.stop()

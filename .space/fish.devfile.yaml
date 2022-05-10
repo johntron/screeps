@@ -1,4 +1,8 @@
 schemaVersion: 2.2.0
+attributes:
+  space:
+    editor:
+      type: Idea
 components:
   - name: deno-container
     container:
